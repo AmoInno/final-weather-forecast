@@ -91,3 +91,22 @@ footer {
   border-top: 1px solid #f9f7fe;
   color: rgba(0, 0, 0, 0.7);
 }
+.weather-forecast {
+  margin-top: 25px;
+  text-align: center;
+  color: #000;
+  margin-right: 200px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.weather-forecast-temperatures {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.min-temperature {
+  opacity: 0.6;
+}

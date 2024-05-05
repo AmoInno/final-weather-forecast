@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather forecast</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/index.css">
 </head>
 
 <body>
@@ -28,12 +36,33 @@
                             id="wind"></span>
 
                     </p>
+                    <div class="weather-forecast">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="weather-forecast-date">
+                                    Thu
+                                </div>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAVVJREFUaN7tmckNgzAQRV1CSqAEl+ASKIFjjpTgEiiBElICJeTKjXRAB5MZyUgOyoKNx8hkLL1LNv6D8RoFAKpklAiIgAiIgAiIwMsLGxs8rjXSI3cE3nB379cqYdstgIEsMn8I/Qn6vD1UAAMYZAoMvoa+r7ML4EWbncHXNNkEGMLvkggSYAy/ULMJ4I9XEZ0VIjp3xSVwYw6/cEsu4EYcyIhOLdBnFuhTC3DXPs3SgzeLD3TdcRw1Yj10sABz+VBgsxrpLgSG7RB4Qxcq0DKGp6AtMnsBB3e34QttiIBlEjAuPEQwhQh0HHff1fgcKQBHCtCA0GCIKja8/yToKeYsoaXuzYY6D6HL1YlpWGwSBvfR3MPo7rr/geWeyHonYJkw3EsJqxjafyzmil9On2JDU/yW8hSb+lMcq5ziYCvB0eJ0+NFiMYe78v+ACIiACIiACJTEEyDCTi8sMWUSAAAAAElFTkSuQmCC"
+                                    alt="" width="30">
+                                <div class="weather-forecast-temperatures">
+                                    <span class="max-temperature">
+                                        20&deg
+                                    </span>
+                                    <span class="min-temperature">
+                                        18&deg
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="weather-app-temperature">
                     <div class="weather-app-emoji" id="emoji"></div>
                     <div class="temperature-value" id="temperature"></div>
                     <div class="degrees">&degC</div>
                 </div>
+
             </div>
         </main>
         <footer>
