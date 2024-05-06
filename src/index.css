@@ -66,6 +66,7 @@ main {
 a {
   color: #885df1;
 }
+
 .weather-app-temperature {
   display: flex;
 }
@@ -91,6 +92,12 @@ footer {
   border-top: 1px solid #f9f7fe;
   color: rgba(0, 0, 0, 0.7);
 }
+
+#forecast-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .weather-forecast {
   margin-top: 25px;
   text-align: center;
