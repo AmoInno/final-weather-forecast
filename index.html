@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="src/index.css">
 </head>
 
+
 <body>
     <div class="weather-app">
+
         <header>
             <form class="search-form" id="search-form-input">
                 <input id="search-input-value" type="text" placeholder="Enter a city..." required class="search-input">
@@ -24,35 +26,36 @@
             </form>
         </header>
         <main>
-            <div class="weather-app-details">
-                <div class="weather-data">
-                    <h1 class="city" id="city">
-
-                    </h1>
-                    <p class="temperature-details">
-                        <span id="time"></span>,<span id="description"></span>
-                        <br>
-                        Humidity:<span class="weather-values" id="humidity"></span> , Wind: <span class="weather-values"
-                            id="wind"></span>
-
-                    </p>
-                    <div id="forecast-container"></div>
+            <div class="weather-app-description">
+                <div class="weather-app-details">
+                    <div class="weather-data">
+                        <h1 class="city" id="city"></h1>
+                        <p class="temperature-details">
+                            <span id="time"></span>,<span id="description"></span>
+                            <br>
+                            Humidity:<span class="weather-values" id="humidity"></span> , Wind: <span
+                                class="weather-values" id="wind"></span>
+                        </p>
+                    </div>
                 </div>
+
                 <div class="weather-app-temperature">
                     <div class="weather-app-emoji" id="emoji"></div>
                     <div class="temperature-value" id="temperature"></div>
                     <div class="degrees">&degC</div>
                 </div>
-
-        </main>
-
-        <footer>
-            This project was coded by <a href="https://github.com/AmoInno" target="_blank">Amogelang Mashishi</a> is, <a
-                href="https://github.com/AmoInno/shcodes-project" target="_blank">open-sourced on GitHub</a> and <a
-                href="https://shecodes-homework.netlify.app/" target="_blank"> hosted on Netlify.</a>
-        </footer>
+            </div>
+    </div>
+    <div id="forecast-container"></div>
+    </main>
+    <footer>
+        This project was coded by <a href="https://github.com/AmoInno" target="_blank">Amogelang Mashishi</a> is, <a
+            href="https://github.com/AmoInno/shcodes-project" target="_blank">open-sourced on GitHub</a> and <a
+            href="https://shecodes-homework.netlify.app/" target="_blank"> hosted on Netlify.</a>
+    </footer>
     </div>
     <script src="src/index.js"></script>
 </body>
+
 
 </html>
